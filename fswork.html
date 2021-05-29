@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitur:Soft</title>
+	<link rel = "shortcut icon" href = "favicon.png" type = "image/png">
+	<style type="text/css">
+		body{
+	background-color: 001000
+}
+
+	*{
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+
+	.navbar{
+		position: fixed;
+		width: 100%;
+		padding: 20px 0;
+		top: 0;
+		z-index: 999;
+		background-color: transparent;
+		transition: .10s linear;
+	}
+
+	.inner-width{
+		max-width: 1300px;
+		margin: auto;
+		padding: 0 40px
+	}
+
+	.navbar .inner-width{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.navbar-menu a{
+		font-style: normal;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 500;
+		margin-left: 20px;
+		transition: .2s linear;
+	}
+
+	.navbar-menu a:hover{
+		font-style: normal;
+		color: #ff99ff;
+		transition: .2s linear;
+	}
+
+	.stycky{
+		background-color: #232323;
+		padding: 20px 0;
+	}
+
+	.stycky .company-name{
+		color: white;
+	}
+
+	.company-name{
+		color: rgba(0,0,0,0);
+		font-size: 15px;
+	}
+
+	#home{
+		height: 100vh;
+		min-height: 500px;
+		background: url(../background.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		font-size: 30px;
+	}
+
+	#home p{
+		font-size: 30px;
+	}
+
+	#home .inner-width {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		text-align: center;
+	}
+
+	#home .content{
+		width: 100%;
+		color: #fff;
+	}
+
+	#home .content h1{
+		font-size: 60px;
+		margin-bottom: 60px;
+	}
+
+	#home .content h4{
+		font-size: 30px;
+		margin-bottom: 60px;
+	}
+
+	#home .content h4::after{
+		content: "Life";
+		color: white;
+		animation: textanim 5s linear;
+	}
+
+	@keyframes textanim{
+		25%{
+			content: "Gaming";
+		}
+		50%{
+			content: "Developing";
+		}
+		75%{
+			content: "Work";
+		}
+		80%{
+			content: "Good";
+		}
+		85%{
+			content: "Good ";
+		}
+		81%{
+			content: "Good L";
+		}
+		82%{
+			content: "Good Li";
+		}
+		83%{
+			content: "Good Lif"
+		}
+		84%{
+			content: "Good Life"
+		}
+		90%{
+			content: "bad time"
+		}
+		91%{
+			content: "Good Life"
+		}
+	}
+
+	#home .buttons{
+		margin-top: 60;
+	}
+
+	#home .buttons a{
+		display: inline-block;
+		margin: 15px 30px;
+		color: white;
+		font-size: 15px;
+		font-weight: 500;
+		width: 180px;
+		border: 2px ridge;
+		padding: 14px 0;
+		border-radius: 9px;
+		font-family: fantasy;
+		transition: .2s linear;
+	}
+
+	#home .buttons a:hover{
+		border-radius: 6px;
+		color: #f1f;
+		border-color: #ff99ff;
+		border: 3px double;
+		font-family: monospace;
+		transition: .2s linear;
+	}
+
+	.content-text{
+		font-size: 30px;
+		text-align: left;
+		font-family: monospace;
+	}
+
+	.main-text{
+		font-family: fantasy;
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.main-title{
+		color: white;
+	}
+
+	.main-title-none .main-title{
+		color: rgba(0,0,0,0);
+	}
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<nav class="navbar">
+	<div class="inner-width">
+		<h4 class="company-name">Fitur:Soft</h4>
+		<div class="navbar-menu">
+			<a href="index.html">Home</a>
+			<a href="products.html">Products</a>
+			<a href="#">Services</a>
+			<a href="about.html">About</a>
+		</div>
+		</nav>
+		<section id="home">
+			<div class="inner-width">
+				<div class="content">
+					<h1 class="u1T9qYdvdihz0PPSiiqn">Fitur:Soft</h1>
+					<h4>Your helper in </h4>
+					<div class="buttons">
+						<a href="products.html">Products</a>
+						<a href="about.html">About</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQUA2I8Azie2YxDeSZgjUL-e3cU7uGKSqGlJIGMHjb5Vc6EQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+	</div>
+</body>
+</html>
